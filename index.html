@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Simon - Unsplash API Infinite Scroll</title>
+        <link rel="icon" type="image/png" href="./SL.png" />
+        <link rel="stylesheet" href="./styles.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    </head>
+    <body>
+        <div class="app">
+            <h1>Infinite Scroll</h1>
+            <div class="my-footer">
+                <hr />
+                <p>
+                    This project was built with the free images API at <code><a href="https://picsum.photos/" target="_blank">picsum.photos</a></code>
+                </p>
+                <p>Created by: <a href="https://github.com/simonhlee97/">Simon Lee</a></p>
+                <p>
+                    <code><a href="https://github.com/simonhlee97/">Code Repo on GitHub</a></code>
+                </p>
+                <p>Last modified: 2020-10-01</p>
+                <hr />
+            </div>
+            <!-- loader -->
+            <div class="loader" id="loader">
+                <img src="./loader.svg" alt="loading" />
+            </div>
+            <!-- image container -->
+            <div class="image-container" id="image-container"></div>
+        </div>
+
+        <!-- Script -->
+        <script src="script.js"></script>
+    </body>
+</html>
